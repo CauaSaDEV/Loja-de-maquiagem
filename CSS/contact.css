@@ -1,0 +1,101 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#000000;
+  margin:0;
+}
+h1{
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+h2{
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+p{
+  color: white;
+  padding: 0 40px;
+  text-align: center;
+}
+.topo{
+  display:grid;
+  grid-template-columns: auto 1fr;
+  align-items:center;
+  padding:15px 40px;
+}
+
+nav a{
+  margin: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+
+}
+
+
+nav a:hover{
+    color: rgb(105, 103, 103);
+}
+nav{
+    background-color: black;
+    margin: 30px;
+    padding: 0;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+.voltar{
+    button{
+        margin-top:10px;
+        padding:10px 20px;
+        border:none;
+        background:#000000;
+        color:white;
+        border-radius:8px;
+        cursor:pointer;
+        font-size:16px;
+    
+    }
+    button:hover{
+        background:#6e6e6e;
+    }
+}
+.Mensagem{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 30px auto;     
+    border-radius:15px;
+    background:rgb(88, 88, 88);
+    width:90%;
+    max-width:600px;
+    min-height:450px;
+}
+.Mensagem label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 16px;
+}
+.Mensagem input[type="text"],
+.Mensagem input[type="email"], 
+.Mensagem textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.Mensagem button {
+    padding: 10px 20px;
+    border: none;
+    background: #000000;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}   
