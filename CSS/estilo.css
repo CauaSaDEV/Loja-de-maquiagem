@@ -1,0 +1,207 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#000000;
+  margin:0;
+}
+
+.topo{
+  display:grid;
+  grid-template-columns: auto 1fr;
+  align-items:center;
+  padding:15px 40px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:5px;
+  margin-top:30px;
+}
+.Imagem{
+  width:100%;
+  height:300px;
+  overflow:hidden;
+  border-radius:15px;
+  box-shadow: 0 4px 12px rgb(231, 231, 231);
+}
+.Imagem img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+nav a{
+  margin: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+
+}
+
+
+nav a:hover{
+    color: rgb(105, 103, 103);
+}
+nav{
+    background-color: black;
+    margin: 30px;
+    padding: 0;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+  margin-top:30px;
+}
+
+.produto{
+  background:rgb(231, 231, 231);
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 4px 12px rgb(231, 231, 231);
+  transition:0.3s;
+}
+
+.produto:hover{
+  transform:translateY(-5px);
+}
+
+.produto img{
+  width:100%;
+  max-width:250px;
+  margin:15px 0;
+}
+
+.produto h3{
+  font-size:18px;
+}
+
+.produto h4{
+  font-weight:normal;
+  font-size:14px;
+  color:#444;
+}
+
+h2{
+  font-size:32px;
+  margin-bottom:20px;
+  color:white;
+  text-align: center;
+}
+
+button{
+  margin-top:10px;
+  padding:10px 20px;
+  border:none;
+  background:#000000;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+button:hover{
+  background:#6e6e6e;
+}
+
+.voltar{
+    button{
+        margin-top:10px;
+        padding:10px 20px;
+        border:none;
+        background:#000000;
+        color:white;
+        border-radius:8px;
+        cursor:pointer;
+        font-size:16px;
+    
+    }
+    button:hover{
+        background:#6e6e6e;
+    }
+}
+
+.mapa{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 30px auto;     
+  border-radius:15px;
+  background:white;
+  width:600px;
+  height:450px;
+  overflow:hidden;      
+}
+
+.mapa iframe{
+  width:100%;
+  height:100%;
+  border:0;
+}
+.Mensagem{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 30px auto;     
+    border-radius:15px;
+    background:rgb(88, 88, 88);
+    width:90%;
+    max-width:600px;
+    min-height:450px;
+}
+.Mensagem label{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 16px;
+}
+.Mensagem input[type="text"],
+.Mensagem input[type="email"], 
+.Mensagem textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.Mensagem button {
+    padding: 10px 20px;
+    border: none;
+    background: #000000;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.texto{
+    color: white;
+    text-align: justify;
+    margin: 50px;
+    h1,h2{
+        text-align: center;
+    }
+
+} 
+.grid2{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:30px;
+    
+}
+.preco-antigo {
+    color: #888;
+    font-size: 1.2rem;
+    text-decoration: line-through; 
+}
+
