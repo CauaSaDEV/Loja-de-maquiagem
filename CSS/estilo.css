@@ -30,10 +30,6 @@ body{
   object-fit:cover;
   display:block;
 }
-
-p{
-    color: rgb(255, 255, 255);
-}
 nav a{
   margin: 30px;
   text-decoration: none;
@@ -77,8 +73,8 @@ p{
 
 .produto img{
   width:100%;
-  max-width:250px;
-  margin:15px 0;
+  max-width:250px; 
+  
 }
 
 .produto h3{
@@ -155,7 +151,7 @@ button:hover{
     border-radius:15px;
     background:rgb(88, 88, 88);
     width:90%;
-    max-width:600px;
+    max-width:700px;
     min-height:450px;
 }
 .Mensagem label{
@@ -187,6 +183,8 @@ button:hover{
     color: white;
     text-align: justify;
     margin: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
     h1,h2{
         text-align: center;
     }
@@ -203,5 +201,22 @@ button:hover{
     color: #888;
     font-size: 1.2rem;
     text-decoration: line-through; 
+}
+.Titulo{
+    font-size:32px;
+    margin-bottom:20px;
+    color:pink;
+    text-align: center;
+    box-shadow: pink 0px 0px 10px;
+    border-radius: 10px;
+}
+.banner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 30px auto;     
+    width:0%;
+    max-width:700px;
+    height:200px;
 }
 
