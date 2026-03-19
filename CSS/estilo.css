@@ -73,7 +73,7 @@ p{
 
 .produto img{
   width:100%;
-  max-width:250px; 
+  max-width:250px;
   
 }
 
@@ -209,9 +209,9 @@ button:hover{
 .Titulo{
     font-size:32px;
     margin-bottom:20px;
-    color:pink;
+    color:rgb(255, 255, 255);
     text-align: center;
-    box-shadow: pink 0px 0px 10px;
+    box-shadow: rgb(94, 94, 94) 0px 0px 10px;
     border-radius: 10px;
 }
 .banner{
